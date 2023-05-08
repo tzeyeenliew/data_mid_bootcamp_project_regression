@@ -10,7 +10,7 @@ Team Members: Natnael Fekade, Kirsty Gosling, and Nicole Liew-Jagtman.
 
 We were tasked to build a model that will predict the price of a house based on features provided in the dataset (as described below). With the aid of Tableau and SQl, we were also able to explore property characteristics as well as factors that are responsible for higher property values of $650K and above. The RandomForestRegressor and StackingRegressor are models that performed particularly well in this context. 
 
-Variables that were more influential in determining the property price , in descending order, are: the presence of a waterfront ('waterfront'), the size of the lviing area ('sqft_living'), the latitude and longitude ('lat', 'long'), the grade of the property ('grade'), history of renovation 'renovated'), the number of bathrooms ('bathrooms'), the view ('view'), the condition of the property ('condition'), the year of construction ('date_year'), the number of floors ('floors'), and the number of bedrooms ('bedrooms'). The text in parentheses indicates the actual name of the variable used in this study.
+Variables that were more influential in determining the property price , in descending order, are: the presence of a waterfront ('waterfront'), the size of the living area ('sqft_living'), the latitude and longitude ('lat', 'long'), the grade of the property ('grade'), history of renovation 'renovated'), the number of bathrooms ('bathrooms'), the view ('view'), the condition of the property ('condition'), the year of construction ('date_year'), the number of floors ('floors'), and the number of bedrooms ('bedrooms'). The text in parentheses indicates the actual name of the variable used in this study.
 
 
 ## Project Deliverables
