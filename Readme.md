@@ -99,7 +99,7 @@ During the course of the project, we have managed to automate the process of fin
 
 For a given estimator (i.e a machine learning model), the GridSearchCV method in Scikit-Learn enables users to conduct an exhaustive search over a set of hyperparameters to identify the best hyperparameters that provide the best performance on a given evaluation metric (such as accuracy, precision, recall, etc.). The method evaluates all potential hyperparameter combinations supplied in a grid (hence the name "GridSearch") and chooses the combination that performs the best given the selected evaluation metric.
 
-For instance, we wanted to adjust hyperparameters of our RandomForestRegressor Model -- such as the number of trees (n_estimators) and the maximum depth of the tree (max_depth). For each of these hyperparameters, GridSearchCV allowed us to input a grid of values, which it then used train and test a different model for each possible combination of these hyperparameters.  In other words, GridSearchCV allowed us to optimize our models given our selected evaluation metrics or R-Squared, Adjusted R-Squared, MSE, RMSE, and MAE.
+For instance, we wanted to adjust hyperparameters of our RandomForestRegressor Model -- such as the number of trees (n_estimators) and the maximum depth of the tree (max_depth). For each of these hyperparameters, GridSearchCV allowed us to input a grid of values, which it then used train and test a different model for each possible combination of these hyperparameters.  In other words, GridSearchCV allowed us to optimize our models given our selected evaluation metrics : R-Squared, Adjusted R-Squared, MSE, RMSE, and MAE.
 
 
 | Model | Best Hyperparameters |
