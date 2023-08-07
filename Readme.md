@@ -1,4 +1,4 @@
-# House Price Regression Project
+# Housing Price Regression Project
 
 Team Name: Curry Wurst
 
